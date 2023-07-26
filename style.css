@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    margin: 0px 15%;
+    width: 70%;
+    height: 100vh;
+    background-color: rgb(245, 207, 184);
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    /* background-color: aqua; */
+justify-content: center;
+align-items: center;
+}
+img{
+    height: 70px;
+}
+#heading{
+    font-size: 40px;
+    color: brown;
+}
+h4{
+    color: brown;
+    text-align: center;
+    margin-top: 15px;
+}
+#input_search{
+  text-align: center;  
+  margin-top: 20px;
+}
+input{
+    width: 120px;
+    height: 25px;
+    border: 2px solid rgb(126, 44, 44);
+    border-radius: 10px;
+    background-color: rgb(235, 180, 180);
+    color: white;
+}
+ button:hover{
+background-color:rgb(235, 180, 180) ;
+
+} 
+button{
+    height: 25px;
+    width:60px ;
+    border-radius: 10px;
+    color: rgb(17, 10, 10);
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    /* margin: 0px 15%; */
+    /* background-color: aquamarine; */
+    margin-top: 50px;
+    height: 60vh;
+    justify-content: space-between;
+    /* gap:0px; */
+}
+.kural_tamil{
+    background-color: blanchedalmond;
+    width: 45%;
+    height: 62vh;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
+    color: rgb(49, 23, 4);
+    margin-left: 10px;
+}
+h3{
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+}
+.kural_eng{
+    color: rgb(49, 23, 4);
+    background-color:blanchedalmond;
+    width: 45%;
+    height: 62vh;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 50, 50);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
+    /* margin-left: 40px; */
+    line-height: 35px;
+    margin-right: 10px;
+
+
+}
